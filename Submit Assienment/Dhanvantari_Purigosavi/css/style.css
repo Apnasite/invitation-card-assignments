@@ -1,0 +1,300 @@
+/* Body and background settings */
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+
+/* Wrapper for the invitation card */
+.invitation-wrapper {
+    width: 210mm;
+    height: 297mm;
+    background:  #4e1533;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Background decorations */
+
+
+.middle-light-blue {
+    width: 1393px;
+    height: 174px;
+    background: #d9b043;
+    transform: rotate(0deg);
+    position: absolute;
+    top: 128mm;
+    left: -60mm;
+}
+.hexagon {
+    position: relative;
+    width: 682px;
+    height: 627.68px;
+    background: #9d3a6e;
+    margin: 276px auto;
+    left: 0mm;
+  }
+  .hexagon::before {
+    bottom: 100%;
+    border-bottom: 269.34px solid #9d3a6e;
+}
+.hexagon::after {
+    top: 100%;
+    border-top: 194.34px solid #9d3a6e;
+}
+.hexagon::before, .hexagon::after {
+    content: "";
+    position: absolute;
+    border-left: 376px solid transparent;
+    border-right: 309px solid transparent;
+    left: -1mm;
+    transform: rotate(0deg);
+    width: 0mm;
+}
+/* Invitation content styling */
+.invitation-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+.invitation-header {
+    font-size: 2.5rem;
+    color: #27115d;
+    margin-bottom: 23px;
+    position: absolute;
+    top: -89mm;
+    left: 38mm;
+}
+.event-name {
+    font-size: 44pt;
+    color: #eecf64;
+    margin-bottom: 10px;
+    position: absolute;
+    top: -76mm;
+    left: 27mm;
+    font-weight: bold;
+}
+.date {
+    font-size: 25pt;
+    color: #ffffff;
+    position: absolute;
+    top: 20mm;
+    left: 26mm;
+    font-weight: bold;
+}
+.time {
+    font-size: 2.2rem;
+    color: #ffffff;
+    position: absolute;
+    top: 36mm;
+    left: 37mm;
+    font-weight: bold;
+}
+
+.location {
+    font-size: 2.2rem;
+    color: #ffffff;
+    position: absolute;
+    top: 23mm;
+    left: 112mm;
+    font-weight: bold;
+}
+
+/* Additional content styling */
+.salutation {
+    font-size: 22pt;
+    color: #ffffff;
+    margin-bottom: 10px;
+    position: absolute;
+    top: -96mm;
+    left: 53mm;
+}
+
+.tagline {
+    font-size: 19pt;
+    color: #ffffff;
+    margin-bottom: 20px;
+    position: absolute;
+    top: -88mm;
+    left: 41mm;
+}
+
+.event-subheading {
+    font-size: 25pt;
+    color: #ffffff;
+    margin-bottom: 10px;
+    position: absolute;
+    top: -55mm;
+    left: 16mm;
+}
+.event-pre-description {
+    font-size: 1.8rem;
+    color: #ffffff;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 50mm;
+    left: 3mm;
+}
+
+.event-description {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 45px;
+    position: absolute;
+    top: 53mm;
+    left: 19mm;
+    width: 146mm;
+}
+
+.event-organizer {
+    font-size: 1.6rem;
+    color: #ffffff;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 79mm;
+    left: 26mm;
+}
+
+.event-other-organizers {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 87mm;
+    left: 30mm;
+}
+
+.event-organizers-contact-person {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 98mm;
+    left: 55mm;
+}
+
+.event-organizers-contact-number {
+    font-size: 1.4rem;
+    color: #ffffff;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 105mm;
+    left: 56mm;
+}
+.event-participant-1 {
+    font-size: 68pt;
+    color: #eecf64;
+    margin-bottom: 5px;
+    position: absolute;
+    top: -26mm;
+    left: 111mm;
+    font-weight: bold;
+}
+
+.event-participant-1-details {
+    font-size: 23pt;
+    color: #ffffff;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 2mm;
+    left: 113mm;
+}
+
+.event-participant-2 {
+    font-size: 61pt;
+    color: #f8da83;
+    margin-bottom: 5px;
+    position: absolute;
+    top: -27mm;
+    left: 14mm;
+    font-weight: bold;
+}
+.event-participant-2-details {
+    font-size: 23pt;
+    color: #ffffff;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 2mm;
+    left: 22mm;
+}
+.line1{
+    position: absolute;
+    left: 99mm;
+    top: 46.5mm;
+    width: 103.5mm;
+    height: 0.1mm;
+    background-color: #f9cd32;
+    z-index: 2;
+    border-radius: 30pt;
+    border: 2px solid #f9cd32;
+    transform: rotate(-139deg);
+}
+.line2{
+    position: absolute;
+    left: 9mm;
+    top: 45mm;
+    width: 113mm;
+    height: 0.1mm;
+    background-color: #f9cd32;
+    z-index: 2;
+    border-radius: 36pt;
+    border: 2px solid #f9cd32;
+    transform: rotate(-215deg);
+}
+.line3{
+    position: absolute;
+    left: -62mm;
+    top: 159mm;
+    width: 162mm;
+    height: 0.1mm;
+    background-color: #f9cd32;
+    z-index: 2;
+    border-radius: 32pt;
+    border: 2px solid #f9cd32;
+    transform: rotate(-90deg);
+}
+.line4{
+    position: absolute;
+    left: 13mm;
+    top: 264mm;
+    width: 103mm;
+    height: 0.1mm;
+    background-color: #f9cd32;
+    z-index: 2;
+    border-radius: 30pt;
+    border: 2px solid #f9cd32;
+    transform: rotate(-152deg);
+}
+.line5{
+    position: absolute;
+    left: 103.3mm;
+    top: 263mm;
+    width: 94.4mm;
+    height: 0.1mm;
+    background-color: #f9cd32;
+    z-index: 2;
+    border-radius: 30pt;
+    border: 2px solid #f9cd32;
+    transform: rotate(-33deg);
+}
+.line6{
+    position: absolute;
+    left: 111mm;
+    top: 159mm;
+    width: 157.2mm;
+    height: 0.1mm;
+    background-color: #f9cd32;
+    z-index: 2;
+    border-radius: 30pt;
+    border: 2px solid #f9cd32;
+    transform: rotate(-90deg);
+}
