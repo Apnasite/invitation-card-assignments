@@ -228,33 +228,33 @@
 }
 .line1{
     position: absolute;
-    left: 99mm;
-    top: 46.5mm;
-    width: 103.5mm;
+    left: 101mm;
+    top: 44.5mm;
+    width: 101mm;
     height: 0.1mm;
     background-color: #f9cd32;
     z-index: 2;
-    border-radius: 30pt;
+    border-radius: 38pt;
     border: 2px solid #f9cd32;
     transform: rotate(-139deg);
 }
 .line2{
     position: absolute;
-    left: 9mm;
-    top: 45mm;
-    width: 113mm;
+    left: 10mm;
+    top: 44mm;
+    width: 113.4mm;
     height: 0.1mm;
     background-color: #f9cd32;
     z-index: 2;
     border-radius: 36pt;
     border: 2px solid #f9cd32;
-    transform: rotate(-215deg);
+    transform: rotate(-216deg);
 }
 .line3{
     position: absolute;
-    left: -62mm;
-    top: 159mm;
-    width: 162mm;
+    left: -57mm;
+    top: 156mm;
+    width: 156mm;
     height: 0.1mm;
     background-color: #f9cd32;
     z-index: 2;
@@ -264,21 +264,21 @@
 }
 .line4{
     position: absolute;
-    left: 13mm;
-    top: 264mm;
-    width: 103mm;
+    left: 14.5mm;
+    top: 260mm;
+    width: 104.2mm;
     height: 0.1mm;
     background-color: #f9cd32;
     z-index: 2;
     border-radius: 30pt;
     border: 2px solid #f9cd32;
-    transform: rotate(-152deg);
+    transform: rotate(-151deg);
 }
 .line5{
     position: absolute;
-    left: 103.3mm;
-    top: 263mm;
-    width: 94.4mm;
+    left: 105.3mm;
+    top: 261mm;
+    width: 91.9mm;
     height: 0.1mm;
     background-color: #f9cd32;
     z-index: 2;
@@ -288,9 +288,9 @@
 }
 .line6{
     position: absolute;
-    left: 111mm;
-    top: 159mm;
-    width: 157.2mm;
+    left: 110.7mm;
+    top: 157mm;
+    width: 158mm;
     height: 0.1mm;
     background-color: #f9cd32;
     z-index: 2;
