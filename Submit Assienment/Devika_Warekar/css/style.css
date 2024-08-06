@@ -1,0 +1,323 @@
+/* Body and background settings */
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+
+/* Wrapper for the invitation card */
+.invitation-wrapper {
+    width: 210mm;
+    height: 297mm;
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Background decorations */
+.shape5 {
+    width: 1143px;
+    height: 51px;
+    background: linear-gradient(168deg, #d3882d, #f5c36a, #d3882d);
+    position: absolute;
+    z-index: 3;
+    left: -150mm;
+    top: 140mm;
+    transform: rotate(-90deg);
+}
+
+.shape2 {
+   width: 779px;
+    height: 1110px;
+    border: 37px solid #ffcb71;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 3;
+    left: 3mm;
+    top: 1mm;
+}
+
+.shape3 {
+   width: 866px;
+    height: 47px;
+    position: absolute;
+    z-index: 3;
+    left: -1mm;
+    background-image: linear-gradient(90deg, transparent 49%, #f7c570 50%);
+    background-size: 75px 75px;
+    background-color: #d3882d;
+	
+}
+
+.shape4 {
+   width: 1121px;
+    height: 15px;
+    background: linear-gradient(17deg, #f5c36a, #d0882e);
+    position: absolute;
+    z-index: 3;
+    left: 53mm;
+    top: 140mm;
+    transform: rotate(-90deg);
+}
+
+.shape1 {
+  width: 675px;
+    height: 994px;
+    border: 3px solid #9c9791;
+    position: absolute;
+    top: 17mm;
+    left: 16mm;
+}
+
+.shape6 {
+   width: 818px;
+    height: 77px;
+    position: absolute;
+    z-index: 3;
+    left: -1mm;
+    top: 285mm;
+    background-image: linear-gradient(90deg, transparent 49%, #d3882d 50%);
+    background-size: 75px 75px;
+    background-color: #f7c570;
+}
+
+.shape7 {
+	width: 806px;
+    height: 49px;
+    opacity: 0.6;
+    position: absolute;
+    top: -0.5mm;
+    z-index: 4;
+    left: 68mm;
+    background: linear-gradient(145deg, #d49032, #d3892d);
+
+}
+
+.shape8 {
+	width: 806px;
+    height: 49px;
+    opacity: 0.6;
+    position: absolute;
+    bottom: -1mm;
+    z-index: 4;
+    left: -94mm;
+    background: linear-gradient(145deg, #f5c66c, #dea549, #d49032, #d3892d);
+}
+.shape9 {
+	width: 806px;
+    height: 49px;
+    opacity: 0.6;
+    position: absolute;
+    bottom: -1mm;
+    z-index: 4;
+    left: -156mm;
+    background: linear-gradient(145deg, #f5c66c, #dea549, #d49032, #d3892d);
+}
+
+.shape10 {
+	width: 806px;
+    height: 49px;
+    opacity: 0.7;
+    position: absolute;
+    top: -1mm;
+    z-index: 4;
+    left: 135mm;
+    background: linear-gradient(145deg, #d49032, #d3892d);
+}
+
+.shape11 {
+   width: 1152px;
+    height: 40px;
+    background: linear-gradient(376deg, #d0882e, #face77, #d0882e);
+    position: absolute;
+    z-index: 7;
+    left: 56mm;
+    top: 140mm;
+    transform: rotate(-90deg);
+}
+
+.shape12 {
+   width: 1152px;
+    height: 21px;
+    background: linear-gradient(376deg, #d0882e, #f9c974);
+    position: absolute;
+    z-index: 7;
+    left: -142mm;
+    top: 140mm;
+    transform: rotate(-90deg);
+}
+
+/* Invitation content styling */
+.invitation-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+.invitation-header {
+    font-size: 2.5rem;
+    color: #27115d;
+    margin-bottom: 23px;
+    position: absolute;
+    top: -89mm;
+    left: 38mm;
+}
+.event-name {
+    font-size: 4rem;
+    color: #665d49;
+    margin-bottom: 10px;
+    position: absolute;
+    top: -87mm;
+    left: 18mm;
+    font-weight: bold;
+}
+.date {
+    font-size: 2.2rem;
+    color: #575147;
+    position: absolute;
+    top: 3mm;
+    left: 23mm;
+    font-weight: bold;
+}
+.time {
+   font-size: 2.2rem;
+    color: #575147;
+    position: absolute;
+    top: 18mm;
+    left: 37mm;
+    font-weight: bold;
+}
+
+.location {
+    font-size: 2.2rem;
+    color: #575147;
+    position: absolute;
+    top: 3mm;
+    left: 103mm;
+    font-weight: bold;
+}
+
+/* Additional content styling */
+.salutation {
+    font-size: 2.5rem;
+    color: #5f5d58;
+    margin-bottom: 10px;
+    position: absolute;
+    top: -114mm;
+    left: 37mm;
+}
+
+.tagline {
+    font-size: 1.8rem;
+    color: #5f5d58;
+    margin-bottom: 20px;
+    position: absolute;
+    top: -99mm;
+    left: 35mm;
+}
+
+.event-subheading {
+    font-size: 2rem;
+    color: #5f5d58;
+    margin-bottom: 10px;
+    position: absolute;
+    top: -61mm;
+    left: 15mm;
+}
+.event-pre-description {
+    font-size: 1.8rem;
+    color: #5f5d58;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 50mm;
+    left: 3mm;
+}
+
+.event-description {
+    font-size: 1.8rem;
+    color: #5f5d58;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 35mm;
+    left: 3mm;
+}
+
+.event-organizer {
+    font-size: 1.5rem;
+    color: #5f5d58;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 77mm;
+    left: 53mm;
+}
+
+.event-other-organizers {
+    font-size: 1.8rem;
+    color: #5f5d58;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 89mm;
+    left: 23mm;
+}
+
+.event-organizers-contact-person {
+    font-size: 1.5rem;
+    color: #5f5d58;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 101mm;
+    left: 55mm;
+}
+
+.event-organizers-contact-number {
+   font-size: 1.5rem;
+    color: #5f5d58;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 112mm;
+    left: 47mm;
+}
+.event-participant-1 {
+   font-size: 6rem;
+    color: #cd801b;
+    margin-bottom: 5px;
+    position: absolute;
+    top: -50mm;
+    left: 115mm;
+    font-weight: bold;
+}
+
+.event-participant-1-details {
+   font-size: 2.2rem;
+    color: #5f5d58;
+    margin-bottom: 5px;
+    position: absolute;
+    top: -17mm;
+    left: 113mm;
+}
+
+.event-participant-2 {
+    font-size: 6rem;
+    color: #ab6817;
+    margin-bottom: 5px;
+    position: absolute;
+    top: -50mm;
+    left: 3mm;
+    font-weight: bold;
+}
+.event-participant-2-details {
+    font-size: 2.2rem;
+    color: #5f5d58;
+    margin-bottom: 5px;
+    position: absolute;
+    top: -17mm;
+    left: 15mm;
+}
