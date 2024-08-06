@@ -1,18 +1,7 @@
 /* Body and background settings */
-/* body {
-    margin: 12mm auto; 
-} */
+
 
 /* Wrapper for the invitation card */
-/* .background{
-    width: 210mm;
-    height: 297mm;
-    background: #f9f7f2;
-    background: #0c0902;
-    position: relative;
-    overflow: hidden;
-    border: 1mm solid red;
-} */
 
 .invitation-wrapper {
     width: 185mm;
@@ -20,10 +9,10 @@
     background: #f9f7f2;
     position: absolute;
     overflow: hidden;
-    box-shadow: 0px 0px 75px rgb(17, 15, 15);
+    box-shadow: 0px 0px 10px rgb(17, 15, 15);
+    margin: 12mm 30%;   
     background-image: url(../img/2.png);
     background-size: contain;
-    margin: 12mm 35%;
 }
 
 /* Background decorations */
