@@ -1,0 +1,277 @@
+body {
+    font-family: sans-serif;
+}
+/* Wrapper for the invitation card */
+.invitation-wrapper {
+    left: 50mm;
+    top: 0mm;
+    width: 210mm;
+    height: 297mm;
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #88D3AF;
+    
+}
+
+/* Background decorations */
+.invitation-background {
+    position: absolute;
+    left: 5mm;
+    top: 8mm;
+    width: 200mm;
+    height: 281mm;
+    background-color: #C7F7DF;
+}
+.invitation-backgroundBox {
+    position: absolute;
+    left: 6mm;
+    top: 8mm;
+    width: 188mm;
+    height: 265mm;
+    background-color: #ffffff;
+}
+.yellow-dash img{
+    position: absolute;
+    left: -5mm;
+    top: -5mm;
+    width: 50mm;
+    height: 50mm;
+}
+
+.top-right-yellow img{
+    position: absolute;
+    right: -6mm;
+    top: -4mm;
+    width: 45mm;
+    height: 45mm;
+}
+.top-left-blue img{
+    position: absolute;
+    right: 47mm;
+    top: 150mm;
+    width: 110mm;
+    height: 15mm;
+}
+.top-left-blue1 img{
+    position: absolute;
+    right: 47mm;
+    top: 105mm;
+    width: 110mm;
+    height: 15mm;
+    transform: rotate(179deg);
+}
+.bottom-left-yellow img{
+    position: absolute;
+    left: -5mm;
+    bottom: -11mm;
+    width: 45mm;
+    height: 45mm;
+    transform: rotate(180deg);
+}
+
+.middle-light-blue img{
+    position: absolute;
+    right: -4mm;
+    bottom: -12mm;
+    width: 50mm;
+    height: 50mm;
+    transform: rotate(180deg);
+}
+
+
+/* Invitation content styling */
+.invitation-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    text-align: center;
+
+}
+
+.invitation-header {
+    /* font-size: 2.5rem; */
+    color: #27115d;
+    margin-bottom: 23px;
+    position: absolute;
+    top: -89mm;
+    left: 38mm;
+    text-align: center;
+
+}
+.event-name {
+    font-size: 49pt;
+    color: #27115d;
+    margin-bottom: 0mm;
+    position: absolute;
+    top: -80mm;
+    left: 15mm;
+    font-weight: bold;
+    text-align: center;
+}
+.date {
+    font-size: 25pt;
+    color: #27115d;
+    position: absolute;
+    top: 38mm;
+    left: 17mm;
+    font-weight: bold;
+    text-align: center;
+}
+.time {
+    font-size: 25pt;
+    color: #27115d;
+    position: absolute;
+    top: 50mm;
+    left: 37mm;
+    font-weight: bold;
+    text-align: center;
+}
+
+.location {
+    font-size: 25pt;
+    color: #27115d;
+    position: absolute;
+    top: 40mm;
+    left: 107mm;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Additional content styling */
+.salutation {
+    font-size: 30pt;
+    color: #27115d;
+    margin-bottom: 0mm;
+    position: absolute;
+    top: -105mm;
+    left: 35mm;
+    text-align: center;    
+}
+
+.tagline {
+    font-size: 23pt;
+    color: #27115d;
+    margin-bottom: 0mm;
+    position: absolute;
+    top: -90mm;
+    left: 35mm;
+    text-align: center;
+}
+
+.event-subheading {
+    font-size: 24pt;
+    color: #27115d;
+    margin-bottom: 10px;
+    position: absolute;
+    top: -60mm;
+    left: 23mm;
+    text-align: center;    
+}
+.event-pre-description {
+    font-size: 1.8rem;
+    color: #27115d;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 50mm;
+    left: 3mm;
+    text-align: center;
+
+}
+
+.event-description {
+    font-size: 21pt;
+    color: #27115d;
+    margin-bottom: 5mm;
+    position: absolute;
+    top: 65mm;
+    left: 3mm;
+    text-align: center;
+}
+
+.event-organizer {
+    font-size: 24pt;
+    color: #27115d;
+    margin-bottom: 0mm;
+    position: absolute;
+    top: 96mm;
+    left: 35mm;
+    text-align: center;
+}
+
+.event-other-organizers {
+    font-size: 22pt;
+    color: #27115d;
+    margin-bottom: 0mm;
+    position: absolute;
+    top: 107mm;
+    left: 25mm;
+    text-align: center;
+}
+
+.event-organizers-contact-person {
+    font-size: 18pt;
+    color: #27115d;
+    margin-bottom: 0mm;
+    position: absolute;
+    top: 120mm;
+    left: 55mm;
+    text-align: center;
+}
+
+.event-organizers-contact-number {
+    font-size: 18pt;
+    color: #27115d;
+    margin-bottom: 0mm;
+    position: absolute;
+    top: 130mm;
+    left: 48mm;
+    text-align: center;
+}
+.event-participant-1 {
+    font-size: 40pt;
+    color: #27115d;
+    margin-bottom: 0mm;
+    position: absolute;
+    top: -12mm;
+    left: 100mm;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Alex Brush';
+}
+
+.event-participant-1-details {
+    font-size: 20pt;
+    color: #27115d;
+    margin-bottom: 0mm;
+    position: absolute;
+    top: 2mm;
+    left: 95mm;
+    text-align: center; 
+}
+
+.event-participant-2 {
+    font-size: 40pt;
+    color: #27115d;
+    margin-bottom: 5px;
+    position: absolute;
+    top: -15mm;
+    left: 35mm;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Alex Brush';
+}
+.event-participant-2-details {
+    font-size: 20pt;
+    color: #27115d;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 2mm;
+    left: 33mm;
+    text-align: center;
+}
