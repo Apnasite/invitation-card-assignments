@@ -1,0 +1,231 @@
+/* Body and background settings */
+
+body{
+    background-color: rgb(0, 5, 83);
+}
+
+/* Wrapper for the invitation card */
+.invitation-wrapper {
+    width: 380mm;
+    height: 180mm;
+    background: #fff;
+    top: 40mm;
+    left: 50mm;
+    position: relative;
+    overflow: hidden;
+    border-top: 170px solid rgb(255, 183, 0);
+    border-bottom: 170px solid rgb(255, 183, 0);
+    border-left: 100px solid rgb(255, 183, 0);
+    border-right: 100px solid rgb(255, 183, 0);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Invitation content styling */
+.invitation-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+.invitation-header {
+    font-size: 2.5rem;
+    color: #27115d;
+    margin-bottom: 23px;
+    position: absolute;
+    top: -89mm;
+    left: 38mm;
+}
+.event-name {
+    font-size: 5rem;
+    color: rgb(0, 204, 255);
+    margin-bottom: 10px;
+    position: absolute;
+    top: -81mm;
+    left: -18mm;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.date {
+    font-size: 2.2rem;
+    color: black;
+    position: absolute;
+    top: 12mm;
+    left: 81mm;
+    font-weight: bold;
+}
+.time {
+    font-size: 2.2rem;
+    color: black;
+    position: absolute;
+    top: 14mm;
+    left: 156mm;
+    font-weight: bold;
+}
+
+.location {
+    font-size: 2.2rem;
+    color: black;
+    position: absolute;
+    top: 28mm;
+    left: 86mm;
+    font-weight: bold;
+}
+
+/* Additional content styling */
+.salutation {
+    font-size: 3rem;
+    color: rgb(255, 183, 0);
+    margin-bottom: 10px;
+    position: absolute;
+    top: -71mm;
+    left: 175mm;
+    font-weight: bold;
+}
+
+.tagline {
+    font-size: 2.1rem;
+    color: rgb(0, 5, 83);
+    margin-bottom: 20px;
+    position: absolute;
+    top: -56mm;
+    left: 179mm;
+}
+
+.event-subheading {
+    font-size: 2rem;
+    color: rgb(0, 5, 83);
+    margin-bottom: 10px;
+    position: absolute;
+    top: -57mm;
+    left: -7mm;
+}
+.event-pre-description {
+    font-size: 1.8rem;
+    color: #27115d;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 50mm;
+    left: 3mm;
+}
+
+.event-description {
+    font-size: 1.8rem;
+    color: #27115d;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 56mm;
+    left: 23mm;
+}
+
+.event-organizer {
+    font-size: 1.5rem;
+    color: #27115d;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 84mm;
+    left: -13mm;
+}
+
+.event-other-organizers {
+    font-size: 1.8rem;
+    color: #27115d;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 46mm;
+    left: 70mm;
+}
+
+.event-organizers-contact-person {
+    font-size: 1.5rem;
+    color: #27115d;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 84mm;
+    left: 115mm;
+}
+
+.event-organizers-contact-number {
+    font-size: 1.5rem;
+    color: #27115d;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 84mm;
+    left: 228mm;
+}
+.event-participant-1 {
+    font-size: 6rem;
+    color: #f82ecc;
+    margin-bottom: 5px;
+    position: absolute;
+    top: -38mm;
+    left: 170mm;
+    font-weight: bold;
+}
+
+.event-participant-1-details {
+    font-size: 2.2rem;
+    color: rgb(8, 8, 8);
+    margin-bottom: 5px;
+    position: absolute;
+    top: -10mm;
+    left: 168mm;
+}
+
+.event-participant-2 {
+    font-size: 6rem;
+    color: #f82ecc;
+    margin-bottom: 5px;
+    position: absolute;
+    top: -42mm;
+    left: 60mm;
+    font-weight: bold;
+}
+.event-participant-2-details {
+    font-size: 2.2rem;
+    color: rgb(8, 8, 8);
+    margin-bottom: 5px;
+    position: absolute;
+    top: -9mm;
+    left: 72mm;
+}
+
+.logo img{
+    top: 50mm;
+    left: 75mm;
+    position: absolute;
+    height: 30mm;
+}
+
+.arrow img{
+    top: 125mm;
+    left: 105mm;
+    position: absolute;
+    height: 90mm;
+}
+
+.template img{
+    top: 0mm;
+    left: 190mm;
+    position: absolute;
+    height: 40mm;
+}
+
+.home img{
+    top: 48mm;
+    left: 290mm;
+    position: absolute;
+    height: 30mm;
+}
+
+.design img{
+    top: 267mm;
+    left: 52mm;
+    position: absolute;
+    height: 44mm;
+    width: 428mm;
+}
