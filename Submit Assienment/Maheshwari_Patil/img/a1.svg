@@ -1,0 +1,20 @@
+<svg width="210mm" height="297mm" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define the striped pattern -->
+  <defs>
+    <pattern id="striped-pattern" patternUnits="userSpaceOnUse" width="14mm" height="40mm">
+      <rect x="0" y="0" width="7mm" height="40mm" fill="#f57841" />
+      <rect x="7mm" y="0" width="7mm" height="40mm" fill="#f16625" />
+    </pattern>
+    <!-- Define the circle pattern -->
+    <pattern id="circle-pattern" patternUnits="userSpaceOnUse" width="10mm" height="10mm">
+      <circle cx="5mm" cy="5mm" r="1.85mm" fill="#f16625" />
+    </pattern>
+  </defs>
+  <!-- Top pattern -->
+  <rect x="0" y="0" width="210mm" height="40mm" fill="url(#striped-pattern)" />
+  <!-- Top white line with red circles -->
+  <rect x="0" y="40mm" width="210mm" height="10mm" fill="white" />
+  <rect x="0" y="40mm" width="210mm" height="10mm" fill="url(#circle-pattern)" />
+  <!-- Top single line -->
+  <rect x="0" y="50mm" width="210mm" height="1.5mm" fill="#f57841" />
+</svg>
