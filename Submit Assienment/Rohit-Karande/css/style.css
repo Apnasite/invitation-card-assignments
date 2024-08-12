@@ -1,0 +1,256 @@
+/* Body and background settings */
+ body {
+    font-family: Arial, sans-serif ,cursive; 
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} 
+
+/* Wrapper for the invitation card */
+.invitation-wrapper {
+    width: 210mm;
+    height: 297mm; 
+    background: #FAEBD7;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border: 10mm solid #ffffff;
+}
+
+/* Background decorations */
+/* .yellow-dash {
+    position: absolute;
+    top: 260mm;
+    left: 97mm;
+    background: #bd952382;
+    height: 2mm;
+    width: 47mm;
+}
+
+.top-left-blue {
+    width: 0;
+    height: 0;
+    border-left: 92px solid transparent;
+    border-right: 721px solid transparent;
+    border-top: 886px solid #27115d;
+    transform: rotate(0deg);
+    position: absolute;
+    top: -307px;
+    left: -201px;
+}
+
+.top-right-yellow {
+    width: 0;
+    height: 0;
+    border-left: 154px solid transparent;
+    border-right: 573px solid transparent;
+    border-top: 536px solid #daa617;
+    transform: rotate(151deg);
+    position: absolute;
+    top: 876px;
+    left: -421px;
+}*/
+
+.bottom-left-yellow {
+    width: 450px;
+    height: 5px;
+    background: #27115d;
+    position: absolute;
+    top: 967px;
+    left: 244px;
+}
+
+.middle-light-blue {
+    width: 450px;
+    height: 5px;
+    background: #27115d;
+    position: absolute;
+    top: 536px;
+    left: 244px;
+} 
+
+/* Invitation content styling */
+.invitation-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+.invitation-header {
+    font-size: 2.5rem;
+    color: #27115d;
+    margin-bottom: 23px;
+    position: absolute;
+    top: -89px;
+    left: 38px;
+}
+.event-name {
+    font-size: 6rem;
+    color: #27115d;
+    margin-bottom: 10px;
+    position: absolute;
+    top: -467px;
+    left: 37px;
+    font-weight: bolder;
+    text-align: left;
+    font-family: "Marck Script", cursive;
+}
+.date {
+    font-size: 1.4rem;
+    color: #27115d;
+    position: absolute;
+    top: 270px;
+    left: 395px;
+    font-weight: bold;
+}
+.time {
+    font-size: 1.4rem;
+    color: #27115d;
+    position: absolute;
+    top: 270px;
+    left: 510px;
+    font-weight: bold;
+}
+
+.location {
+    font-size: 1.6rem;
+    color: #27115d;
+    position: absolute;
+    top: 323px;
+    left: 333px;
+    text-align: right;
+    
+}
+
+/* Additional content styling */
+.salutation {
+    font-size: 1.2rem;
+    color: #27115d;
+    margin-bottom: 10px;
+    position: absolute;
+    top: -80px;
+    left: 41px;
+    text-align: left;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    color: #27115d;
+    margin-bottom: 20px;
+    position: absolute;
+    top: -80px;
+    left: 94px;
+    font-weight: bolder;
+}
+
+.event-subheading {
+    font-size: 1.4rem;
+    color: #27115d;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 237px;
+    left: 375px;
+    font-weight: bold;
+}
+.event-pre-description {
+    font-size: 1.8rem;
+    color: #27115d;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 50px;
+    left: 3px;
+}
+
+.event-description {
+    font-size: 1.5rem;
+    color: #27115d;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 70px;
+    left: 85px;
+    font-weight: bold;
+}
+
+.event-organizer {
+    font-size: 1rem;
+    color: #27115d;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 510px;
+    left: 392px;
+    font-weight: bold;
+}
+
+.event-other-organizers {
+    font-size: 1.4rem;
+    color: #27115d;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 445px;
+    left: 360px;
+    font-weight: bold;
+}
+
+.event-organizers-contact-person {
+    font-size: 1rem;
+    color: #27115d;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 468px;
+    left: 392px;
+    font-weight: bold;
+}
+
+.event-organizers-contact-number {
+    font-size: 1rem;
+    color: #27115d;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 489px;
+    left: 392px;
+    font-weight: bold;
+}
+.event-participant-1 {
+    font-size: 5rem;
+    color: #27115d;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 24px;
+    left: 427px;
+    font-weight: bold;
+}
+
+.event-participant-1-details {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #27115d;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 17px;
+    right: 43px;
+}
+
+.event-participant-2 {
+    font-size: 5rem;
+    color: #27115d;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 116px;
+    left: 389px;
+    font-weight: bold;
+}
+.event-participant-2-details {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #27115d;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 195px;
+    right: 51px;
+}
