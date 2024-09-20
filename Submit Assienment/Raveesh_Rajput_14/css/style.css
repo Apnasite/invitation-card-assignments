@@ -10,7 +10,7 @@ body {
     background: #fff;
     position: relative;
     overflow: hidden;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 5.6pt rgba(0, 0, 0, 0.2);
     background-color: #88D3AF;
     
 }
@@ -49,16 +49,16 @@ body {
 }
 .top-left-blue img{
     position: absolute;
-    right: 47mm;
-    top: 150mm;
-    width: 110mm;
+    right: 50mm;
+    top: 140mm;
+    width: 95mm;
     height: 15mm;
 }
 .top-left-blue1 img{
     position: absolute;
-    right: 47mm;
-    top: 105mm;
-    width: 110mm;
+    right: 50mm;
+    top: 95mm;
+    width: 95mm;
     height: 15mm;
     transform: rotate(179deg);
 }
@@ -84,18 +84,16 @@ body {
 /* Invitation content styling */
 .invitation-content {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80%;
-    padding: 20px;
+    top: 148mm;
+    left: -80mm;
+    transform: translate(90mm, -5mm);
+    width: 173mm;
+    padding: 5.2mm;
     text-align: center;
     text-align: center;
-
 }
-
+/* 
 .invitation-header {
-    /* font-size: 2.5rem; */
     color: #27115d;
     margin-bottom: 23px;
     position: absolute;
@@ -103,14 +101,14 @@ body {
     left: 38mm;
     text-align: center;
 
-}
+} */
 .event-name {
-    font-size: 49pt;
+    font-size: 40pt;
     color: #27115d;
     margin-bottom: 0mm;
     position: absolute;
     top: -80mm;
-    left: 15mm;
+    left: 29mm;
     font-weight: bold;
     text-align: center;
 }
@@ -118,7 +116,7 @@ body {
     font-size: 25pt;
     color: #27115d;
     position: absolute;
-    top: 38mm;
+    top: 28mm;
     left: 17mm;
     font-weight: bold;
     text-align: center;
@@ -127,7 +125,7 @@ body {
     font-size: 25pt;
     color: #27115d;
     position: absolute;
-    top: 50mm;
+    top: 40mm;
     left: 37mm;
     font-weight: bold;
     text-align: center;
@@ -137,7 +135,7 @@ body {
     font-size: 25pt;
     color: #27115d;
     position: absolute;
-    top: 40mm;
+    top: 29mm;
     left: 107mm;
     font-weight: bold;
     text-align: center;
@@ -145,43 +143,33 @@ body {
 
 /* Additional content styling */
 .salutation {
-    font-size: 30pt;
+    font-size: 25pt;
     color: #27115d;
     margin-bottom: 0mm;
     position: absolute;
     top: -105mm;
-    left: 35mm;
-    text-align: center;    
+    left: 47mm;
+    text-align: center; 
 }
 
 .tagline {
-    font-size: 23pt;
+    font-size: 20pt;
     color: #27115d;
     margin-bottom: 0mm;
     position: absolute;
     top: -90mm;
-    left: 35mm;
+    left: 37mm;
     text-align: center;
 }
 
 .event-subheading {
-    font-size: 24pt;
+    font-size: 20pt;
     color: #27115d;
-    margin-bottom: 10px;
+    margin-bottom: 2.6mm;
     position: absolute;
     top: -60mm;
     left: 23mm;
-    text-align: center;    
-}
-.event-pre-description {
-    font-size: 1.8rem;
-    color: #27115d;
-    margin-bottom: 5px;
-    position: absolute;
-    top: 50mm;
-    left: 3mm;
     text-align: center;
-
 }
 
 .event-description {
@@ -189,8 +177,8 @@ body {
     color: #27115d;
     margin-bottom: 5mm;
     position: absolute;
-    top: 65mm;
-    left: 3mm;
+    top: 55mm;
+    left: 10mm;
     text-align: center;
 }
 
@@ -199,7 +187,7 @@ body {
     color: #27115d;
     margin-bottom: 0mm;
     position: absolute;
-    top: 96mm;
+    top: 86mm;
     left: 35mm;
     text-align: center;
 }
@@ -209,7 +197,7 @@ body {
     color: #27115d;
     margin-bottom: 0mm;
     position: absolute;
-    top: 107mm;
+    top: 97mm;
     left: 25mm;
     text-align: center;
 }
@@ -219,7 +207,7 @@ body {
     color: #27115d;
     margin-bottom: 0mm;
     position: absolute;
-    top: 120mm;
+    top: 110mm;
     left: 55mm;
     text-align: center;
 }
@@ -229,49 +217,49 @@ body {
     color: #27115d;
     margin-bottom: 0mm;
     position: absolute;
-    top: 130mm;
+    top: 120mm;
     left: 48mm;
     text-align: center;
 }
 .event-participant-1 {
-    font-size: 40pt;
+    font-size: 30pt;
     color: #27115d;
     margin-bottom: 0mm;
     position: absolute;
-    top: -12mm;
-    left: 100mm;
+    top: -23mm;
+    left: 107mm;
     font-weight: bold;
     text-align: center;
     font-family: 'Alex Brush';
 }
 
 .event-participant-1-details {
-    font-size: 20pt;
+    font-size: 15pt;
     color: #27115d;
     margin-bottom: 0mm;
     position: absolute;
-    top: 2mm;
-    left: 95mm;
-    text-align: center; 
+    top: -8mm;
+    left: 100mm;
+    text-align: center;
 }
 
 .event-participant-2 {
-    font-size: 40pt;
+    font-size: 30pt;
     color: #27115d;
-    margin-bottom: 5px;
+    margin-bottom: 1.3mm;
     position: absolute;
-    top: -15mm;
-    left: 35mm;
+    top: -25mm;
+    left: 60mm;
     font-weight: bold;
     text-align: center;
     font-family: 'Alex Brush';
 }
 .event-participant-2-details {
-    font-size: 20pt;
+    font-size: 15pt;
     color: #27115d;
-    margin-bottom: 5px;
+    margin-bottom: 1.3mm;
     position: absolute;
-    top: 2mm;
-    left: 33mm;
+    top: -8mm;
+    left: 58mm;
     text-align: center;
 }
