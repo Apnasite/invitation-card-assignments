@@ -1,0 +1,391 @@
+* Body and background settings */
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+
+@font-face {
+  font-family: MB_Picturehouse;
+  src: url("../fonts/MB\ PictureHouse\ Two\ W01\ Light\ V1.ttf");
+}
+
+/* Wrapper for the invitation card */
+.invitation-wrapper {
+  width: 210mm;
+  height: 297mm;
+  background: #fff;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.bg-div-blue {
+  position: absolute;
+  width: 180mm;
+  height: 250mm;
+  background-color: #574754;
+  transform: rotate(-4deg);
+  margin: 10mm;
+}
+
+.bg-div-tiles {
+  position: absolute;
+  width: 180mm;
+  height: 250mm;
+  background-color: #200327f4;
+  transform: rotate(0deg);
+  /* margin: 10mm; */
+  margin: 6mm;
+
+  /* background-image: url("https://www.transparenttextures.com/patterns/flowers.png"); */
+
+  background-image: url("../IMG/xv.png");
+}
+
+.bg-div-white {
+  background-image: -webkit-image-set("https://images.unsplash.com/photo-1550785188-cb206bec4318?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max");
+  position: absolute;
+  width: 140mm;
+  height: 210mm;
+  background-color: #440653e3;
+  margin: 30mm;
+}
+
+.bg-inner-div-blue {
+  position: absolute;
+  width: 130mm;
+  height: 200mm;
+  background-color: #1f032e;
+  margin: 35mm;
+  background-image: url("../IMG/xv.png");
+  border-radius: 60%;
+}
+
+.bg-inner-blue-border {
+ background-image:-webkit-image-set("https://tse4.mm.bing.net/th?id=OIP.04CNAqa-v-4KSkICqsebCwHaE7&pid=Api&P=0&h=180");
+  position: absolute;
+  display:oval;
+  border-top-right-radius: 5px;
+  top: 110mm;
+  left: 38mm;
+  border: 2pt solid #1f021a;
+  
+   
+  
+}
+
+/* Invitation content styling */
+.invitation-content {
+  position: absolute;
+  top: 40%;
+  left: -20%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  padding: 20px;
+  text-align: center,rgb(239, 226, 226);
+
+}
+
+.invitation-header {
+  font-size: 2.5rem;
+  color: #eeecf4;
+  margin-bottom: 23px;
+  position: absolute;
+  top: -89mm;
+  left: 38mm;
+  text-align: center;
+}
+
+.event-name {
+  font-weight: bold;
+  text-align: center;
+  font-size: 3.1rem;
+  color: #fff9e6;
+  margin-bottom: 10px;
+  position: absolute;
+  top: -87mm;
+  left: 39mm;
+  font-family: "MB_Picturehouse";
+}
+
+.date {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #fff9e6;
+  position: absolute;
+  top: 14mm;
+  left: 64mm;
+  font-family: "MB_PICTUREHOUSE";
+}
+
+.time {
+  font-size: 1.4rem;
+  color: #fff9e6;
+  position: absolute;
+  top: 26mm;
+  left: 64mm;
+  font-family: "MB_PICTUREHOUSE";
+}
+
+.location {
+  font-size: 1.4rem;
+  color: #fff9e6;
+  position: absolute;
+  top: 1mm;
+  left: 72mm;
+  font-family: "MB_Picturehouse";
+  text-align: center;
+}
+
+/* Additional content styling */
+.salutation {
+  font-size: 1.2rem;
+  color: #fff9e6;
+  margin-bottom: 10px;
+  position: absolute;
+  top: -101mm;
+  left: 64mm;
+  font-family: "MB_Picturehouse";
+  text-align: center;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  color: #fff9e6;
+  margin-bottom: 20px;
+  position: absolute;
+  top: -96mm;
+  left: 52mm;
+  text-align: center;
+  font-family: "MB_Picturehouse";
+}
+
+.event-subheading {
+  font-size: 1.5rem;
+  color: #fff9e6;
+  margin-bottom: 10px;
+  position: absolute;
+  top: -55mm;
+  left: 28mm;
+}
+
+.event-pre-description {
+  font-size: 1.8rem;
+  color: #fff9e6;
+  margin-bottom: 5px;
+  position: absolute;
+  top: 68mm;
+  left: 53mm;
+}
+
+.event-description {
+  font-size: 1rem;
+  color: #fff9e6;
+  width: 120mm;
+  margin-bottom: 5px;
+  position: absolute;
+  top: 38mm;
+  left: 25mm;
+  font-family: MB_Picturehouse;
+}
+
+.event-organizer {
+  font-size: 1.2rem;
+  color: #fff9e6;
+  margin-bottom: 5px;
+  position: absolute;
+  top: 54mm;
+  left: 58mm;
+  font-weight: bold;
+  font-family: MB_Picturehouse;
+}
+
+.event-other-organizers {
+  font-size: 1.2rem;
+  color: #fff9e6;
+  margin-bottom: 5px;
+  position: absolute;
+  top: 59mm;
+  left: 46mm;
+  font-weight: bold;
+  font-family: MB_Picturehouse;
+}
+
+.event-organizers-contact-person {
+  font-size: 1.2rem;
+  color: #fff9e6;
+  margin-bottom: 5px;
+  position: absolute;
+  top: 72mm;
+  left: 55mm;
+  font-family: MB_Picturehouse;
+  text-align: center;
+}
+
+.event-organizers-contact-number {
+  font-size: 1.2rem;
+  color: #fff9e6;
+  margin-bottom: 3.75pt;
+  position: absolute;
+  top: 78mm;
+  left: 55mm;
+  font-family: MB_Picturehouse;
+  text-align: center;
+}
+.event-participant-1 {
+  font-size: 4rem;
+  color: #fff9e6;
+  margin-bottom: 3.75pt;
+  position: absolute;
+  top: -30mm;
+  left: 69mm;
+  font-weight: bold;
+  font-family: MB_Picturehouse;
+}
+
+.bg-inner-blue-border 
+    .h1 {
+  font-size: 1.0rem;
+  
+  /*margin-bottom: 3.75pt;*/
+  position: absolute;
+  top: -47mm;
+  right: -117mm;
+  left: 0.1mm;
+  font-family: "MB_Picturehouse";
+  
+  color: #eeecf4;
+  margin-bottom: 10px;
+  position: absolute; 
+  text-align: center;}
+ 
+
+
+  .bg-inner-blue-border .h2bride {
+    font-size: 2.5rem;
+    /* margin-bottom: 3.75pt; */
+    position: absolute;
+    top: -37mm;
+    right: -57mm;
+    left: 0.1mm;
+    font-family: "MB_Picturehouse";
+    color: #eeecf4;
+    margin-bottom: 10px;
+    position: absolute;
+    text-align: center;
+} 
+.bg-inner-blue-border .h2bride1 {
+  font-size: 2.5rem;
+  /* margin-bottom: 3.75pt; */
+  position: absolute;
+  top: -0.7mm;
+  right: -0.7mm;
+  left: -0.1mm;
+  font-family: "MB_Picturehouse";
+  font-style: Sans-serif-Verdana;
+  color: #eeecf4;
+  margin-bottom: 10px;
+  position: absolute;
+  text-align: center;
+} 
+.bg-inner-blue-border .h2bride2 {
+  font-size: 2.5rem;
+  /* margin-bottom: 3.75pt; */
+  position: absolute;
+  top: -0.7mm;
+  right: -55.7mm;
+  left: 25.51mm;
+  font-family: "AlexBrush";
+  font-style: Sans-serif-Verdana;
+  color: #eeecf4;
+  margin-bottom: 10px;
+  position: absolute;
+  text-align: center;
+} 
+.bg-inner-blue-border .h3add {
+  font-size: 1rem;
+  /* margin-bottom: 3.75pt; */
+  position: absolute;
+  top: -1.7mm;
+  right: 1.7mm;
+  left: 9rem;
+  font-family: "Sans-serif";
+  font-style: italic;
+  color: #eeecf4;
+  margin-bottom: 10px;
+  position: absolute;
+  text-align: center;
+}
+
+
+.bg-inner-blue-border .h2bride2.and{font-size: 10 rem;
+     color:#633a5c}
+
+
+
+
+     .h4dt{
+      margin-bottom: 3.75pt;
+        font-size: 1.50rem;
+         position: absolute;
+        top: 67mm;
+        right: -97mm;
+        left: 5.1mm;
+        font-family: "MB_Picturehouse";
+        font-style: italic;
+        color: #eeecf4;
+        margin-bottom: 10px;
+        position: absolute; 
+        text-align: center;
+      }
+
+     
+     .h5
+
+       {
+        font-size: 1.0rem;
+        
+        margin-bottom: 2.75pt;
+        position: absolute;
+        top: 50.1mm;
+        right: -97mm;
+        left: 3.1mm;
+        font-family: "MB_Picturehouse";
+        font-style:verdana;
+        color: #6641d6;
+        margin-bottom: 10px;
+        position: absolute; 
+        text-align: center;}
+
+       
+     
+     
+     /*{
+  font-size: 4rem;
+  color: #fff9e6;
+  margin-bottom: 3.75pt;
+  position: absolute;
+  top: -97mm;
+  left: 69mm;
+  font-weight: bold;
+  font-family: MB_Picturehouse;
+}
+.svg{ top:-2mm;
+    z-index: 1;}*/
+
+
+/*
+
+.event-participant-2-details {
+  font-size: 1.4rem;
+  color: #fff9e6;
+  margin-bottom: 3.75pt;
+  position: absolute;
+  top: -51mm;
+  left: 73mm;
+  font-family: "MB_Picturehouse";
+}*/
