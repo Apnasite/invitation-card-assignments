@@ -1,0 +1,239 @@
+/* Body and background settings */
+/* body {
+    font-family: Microsoft Himalaya;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+
+/* Wrapper for the invitation card */
+.invitation-wrapper {
+    height: 300mm;
+    position: relative;
+    width: 200mm;
+    margin: auto;
+    box-shadow: 1;
+}
+
+
+
+
+.blue{
+position: absolute;
+    width: 180mm;
+    height: 250mm;
+    background-color: #391930;
+    transform: rotate(4deg);
+    margin: 10mm;
+}
+
+.yellow{
+    position: absolute;
+    width:180mm;
+    height:250mm;
+    background-color:#51374b;
+    transform: rotate(0deg);
+    margin: 10mm;
+	background-color: #51374b;
+background-image: url("https://www.transparenttextures.com/patterns/flowers.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+.oval {
+      top: 21%;
+    left: -4%;
+    position: absolute;
+    width: 216mm;
+    height: 147mm;
+    background: #3f1d3596;
+    border-radius: 469px / 303px;
+    transform: rotate(90deg);
+}
+.oval2 {
+    top: 19%;
+    left: -8%;
+    position: absolute;
+    width: 216mm;
+    height: 147mm;
+    border: 2px solid gold;
+    padding: 7mm;
+    border-radius: 469px / 322px;
+    transform: rotate(90deg);
+}
+  
+
+
+/* Invitation content styling */
+.invitation-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+.invitation-header {
+    font-size: 2.5rem;
+    color: #27115d;
+    margin-bottom: 23px;
+    position: absolute;
+    top: -89mm;
+	font-family:Bodoni MT Condensed;.
+    left: 38mm;
+}
+.event-name {
+    font-size: 3.1rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+    position: absolute;
+    top: -70mm;
+    left: 30mm;
+    border-bottom: 6px solid yellow;
+}
+.date {
+         font-size: 3.8rem;
+    color: #ffffff;
+    position: absolute;
+    top: 17mm;
+    left: 35mm;
+    font-family: Javanese Text;
+}
+.time {
+        font-size: 2.5rem;
+    color: #ffffff;
+    position: absolute;
+    top: 45mm;
+    left: 62mm;
+    font-weight: bold;
+}
+
+.location {
+    font-size: 2.4rem;
+    color: #ffffff;
+    position: absolute;
+    top: -3mm;
+    left: 59mm;
+    
+}
+
+/* Additional content styling */
+.salutation {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+    position: absolute;
+    top: -106mm;
+    left: 53mm;
+}
+
+.tagline {
+    font-size: 1.4rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+    position: absolute;
+    top: -93mm;
+    left: 40mm;
+}
+
+.event-subheading {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+    position: absolute;
+    top: -55mm;
+    left: 28mm;
+}
+.event-pre-description {
+    font-size: 1.8rem;
+    color: #ffffff;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 68mm;
+    left: 53mm;
+}
+
+.event-description {
+   font-size: 1.5rem;
+    color: yellow;
+    width: 120mm;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 11mm;
+    left: 25mm;
+}
+
+.event-organizer {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 43mm;
+    left: 44mm;
+}
+
+.event-other-organizers {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 55mm;
+    left: 30mm;
+}
+
+.event-organizers-contact-person {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 67mm;
+    left: 55mm;
+}
+
+.event-organizers-contact-number {
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 80mm;
+    left: 53mm;
+
+}
+.event-participant-1 {
+    font-size: 4rem;
+    color: #ffffff;
+    margin-bottom: 5px;
+    position: absolute;
+    top: -42mm;
+    left: 100mm;
+    font-weight: bold;
+}
+
+.event-participant-1-details {
+    font-size: 1.9rem;
+    color: #ffffff;
+    margin-bottom: 5px;
+    position: absolute;
+    top: -24mm;
+    left: 96mm;
+}
+
+.event-participant-2 {
+   font-size: 4rem;
+    color: #ffffff;
+    margin-bottom: 5px;
+    position: absolute;
+    top: -45mm;
+    left: 28mm;
+    font-weight: bold;
+}
+.event-participant-2-details {
+    font-size: 1.9rem;
+    color: #ffffff;
+    margin-bottom: 5px;
+    position: absolute;
+    top: -23mm;
+    left: 31mm;
+}
