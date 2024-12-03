@@ -1,0 +1,462 @@
+/* Wrapper for the invitation card */
+.invitation-wrapper {
+    width: 220mm;
+    height: 270mm;
+    background: rgb(108, 4, 5);
+    position: absolute;
+    left:50mm;
+    top:70mm;
+}
+
+.invitation-background{
+    position: absolute;
+    width:200mm;
+    height:250mm;
+    background-color: rgb(249, 247, 224);
+    top:10mm;
+    left:10mm;
+}
+
+/* Background decorations */
+.topline {
+    position: absolute;
+    top: 10mm;
+    left: 13mm;
+    height: 60mm;
+    border:1px solid navy;
+    
+}
+.line1 {
+    position: absolute;
+    top: 8mm;
+    left: 15mm;
+    height: 60mm;
+    border:1px solid navy;
+    
+}
+.line2 {
+    position: absolute;
+    top: 8mm;
+    left: 15mm;
+    width: 77mm;
+    border:1px solid navy;
+    
+} 
+.line3 {
+    position: absolute;
+    top: 10mm;
+    left: 13mm;
+    width: 70mm;
+    border:1px solid navy;
+}
+.line4 {
+    position: absolute;
+    top: 10mm;
+    left: 110mm;
+    width: 77mm;
+    border:1px solid navy;
+}
+.line5 {
+    position: absolute;
+    top: 10mm;
+    left: 17mm;
+    width: 73mm;
+    border:1px solid navy;
+}
+.line6 {
+    position: absolute;
+    top: 8mm;
+    left: 108mm;
+    width: 77mm;
+    border:1px solid navy;
+}
+.line7 {
+    position: absolute;
+    top: 8mm;
+    left: 185mm;
+    height: 60mm;
+    border:1px solid navy;
+    
+}
+.line8 {
+    position: absolute;
+    top: 10mm;
+    left: 187mm;
+    height: 60mm;
+    border:1px solid navy;
+    
+}
+.line8 {
+    position: absolute;
+    top: 180mm;
+    left: 13mm;
+    height: 60mm;
+    border:1px solid navy;
+    
+}
+.line9 {
+    position: absolute;
+    top: 10mm;
+    left: 187mm;
+    height: 60mm;
+    border:1px solid navy;
+    
+}
+.line10 {
+    position: absolute;
+    top: 180mm;
+    left: 187mm;
+    height: 60mm;
+    border:1px solid navy;
+    
+}
+.line11 {
+    position: absolute;
+    top: 240mm;
+    left: 13mm;
+    width: 73mm;
+    border:1px solid navy;
+    
+} 
+.line12 {
+    position: absolute;
+    top: 240mm;
+    left: 114mm;
+    width: 73mm;
+    border:1px solid navy;
+    
+} 
+.line13 {
+    position: absolute;
+    top: 180mm;
+    left: 189mm;
+    height: 58mm;
+    border:1px solid navy;
+}
+.line14 {
+    position: absolute;
+    top: 180mm;
+    left: 11mm;
+    height: 58mm;
+    border:1px solid navy;
+}
+.line15 {
+    position: absolute;
+    top: 238mm;
+    left: 116mm;
+    width: 73mm;
+    border:1px solid navy;
+    
+} 
+.line16 {
+    position: absolute;
+    top: 238mm;
+    left: 11mm;
+    width: 73mm;
+    border:1px solid navy;
+    
+} 
+.line17 {
+    position: absolute;
+    top: 144mm;
+    left: 86mm;
+    height: 18mm;
+    border:1px solid navy;
+    
+} 
+.line18 {
+    position: absolute;
+    top: 144mm;
+    left: 110mm;
+    height: 18mm;
+    border:1px solid navy;
+    
+} 
+
+/*.top-left-blue {
+    width: 0;
+    height: 0;
+    border-left: 92px solid transparent;
+    border-right: 721px solid transparent;
+    border-top: 886px solid #27115d;
+    transform: rotate(0deg);
+    position: absolute;
+    top: -307px;
+    left: -201px;
+}
+
+.top-right-yellow {
+    width: 0;
+    height: 0;
+    border-left: 154px solid transparent;
+    border-right: 573px solid transparent;
+    border-top: 536px solid #daa617;
+    transform: rotate(151deg);
+    position: absolute;
+    top: 876px;
+    left: -421px;
+}
+
+.bottom-left-yellow {
+    width: 0;
+    height: 0;
+    border-left: 92px solid transparent;
+    border-right: 573px solid transparent;
+    border-top: 370px solid #daa617;
+    transform: rotate(329deg);
+    position: absolute;
+    top: -197px;
+    left: 573px;
+}
+
+.middle-light-blue {
+    width: 1443px;
+    height: 421px;
+    background: rgba(199, 219, 227, 0.5);
+    transform: rotate(42deg);
+    position: absolute;
+    top: 115mm;
+    left: -60mm;
+}
+
+/* Invitation content styling */
+.invitation-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    text-align: center;
+
+}
+
+.invitation-header {
+    font-size: 2.5rem;
+    color: #27115d;
+    margin-bottom: 23px;
+    position: absolute;
+    top: -89mm;
+    left: 38mm;
+    text-align: center;
+
+}
+.event-name {
+    font-size: 40pt;
+    color: #27115d;
+    margin-bottom: 10px;
+    position: absolute;
+    top: -85mm;
+    left: 35mm;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.time {
+    font-size: 20pt;
+    color: #27115d;
+    position: absolute;
+    top: 28mm;
+    left: 107mm;
+    font-weight: bold;
+    text-align: center;
+
+}
+.day {
+    font-size: 20pt;
+    color: #27115d;
+    position: absolute;
+    top: 28mm;
+    left: 49mm;
+    font-weight: bold;
+    text-align: center;
+
+}
+.date {
+    font-size: 35pt;
+    color: #27115d;
+    position: absolute;
+    top: 23mm;
+    left: 84mm;
+    font-weight: bold;
+    text-align: center;
+
+}
+.year {
+    font-size: 20pt;
+    color: #27115d;
+    position: absolute;
+    top: 35mm;
+    left: 84mm;
+    font-weight: bold;
+    text-align: center;
+
+}
+.month {
+    font-size: 20pt;
+    color: #27115d;
+    position: absolute;
+    top: 16mm;
+    left: 77mm;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+
+.location {
+    font-size: 22pt;
+    color: #27115d;
+    position: absolute;
+    top: 48mm;
+    left: 46mm;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+/* Additional content styling */
+.salutation {
+    font-size: 15pt;
+    color: #27115d;
+    margin-bottom: 10px;
+    position: absolute;
+    top: -103mm;
+    left: 45mm;
+    text-align: center;
+
+}
+
+.tagline {
+    font-size: 15PT;
+    color: #27115d;
+    margin-bottom: 10px;
+    position: absolute;
+    top: -96mm;
+    left: 45mm;
+    text-align: center;
+
+}
+
+.event-subheading {
+    font-size: 23pt;
+    color: #27115d;
+    margin-bottom: 10px;
+    position: absolute;
+    top: -63mm;
+    left: 22mm;
+    text-align: center;
+
+}
+.event-pre-description {
+    font-size: 1.8rem;
+    color: #27115d;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 50mm;
+    left: 3mm;
+    text-align: center;
+
+}
+
+.event-description {
+    font-size: 19pt;
+    color: #27115d;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 64mm;
+    left: 3mm;
+    text-align: justify;
+    margin-left: 24px;
+    margin-right: 39px;
+    
+}
+
+.event-organizer {
+    font-size: 15pt;
+    color: #27115d;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 95mm;
+    left: 9mm;
+    text-align: center;
+}
+
+.event-other-organizers {
+    font-size: 15pt;
+    color: #27115d;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 103mm;
+    left: 9mm;
+    text-align: center;
+}
+
+.event-organizers-contact-person {
+    font-size: 13pt;
+    color: #27115d;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 104mm;
+    left: 130mm;
+    text-align: center;
+
+}
+
+.event-organizers-contact-number {
+    font-size: 13pt;
+    color: #27115d;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 112mm;
+    left: 117mm;
+    text-align: center;
+
+}
+.event-participant-1 {
+    font-size: 6rem;
+    color:rgb(108, 4, 5);
+    margin-bottom: 5px;
+    position: absolute;
+    top: -22mm;
+    left: 63mm;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Alex Brush';
+
+}
+
+.event-participant-1-details {
+    font-size: 1.2rem;
+    color: #27115d;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 2mm;
+    left: 76mm;
+    text-align: center;
+
+}
+
+.event-participant-2 {
+    font-size: 6rem;
+    color: rgb(108, 4, 5);
+    margin-bottom: 5px;
+    position: absolute;
+    top: -51mm;
+    left: 47mm;
+    font-weight: bold;
+    font-family: 'Alex Brush';
+
+}
+.event-participant-2-details {
+    font-size: 1.2rem;
+    color: #27115d;
+    margin-bottom: 5px;
+    position: absolute;
+    top: -27mm;
+    left: 81mm;
+    text-align: center;
+
+}
