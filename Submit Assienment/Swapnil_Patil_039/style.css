@@ -1,0 +1,108 @@
+@font-face {
+    font-family: myFont1;
+    src: url(.//Font/DancingScript-VariableFont_wght.ttf);
+}
+.background{
+    height: 300mm;
+    width: 200mm;
+    display: flex; 
+}
+
+.background .purple{
+    height: 300mm;
+    width: 160mm;
+    background-image: linear-gradient(to bottom, #03244B, #060A34);
+}
+.background .golden{
+    height: 300mm;
+    width: 40mm;
+    background-image: linear-gradient(to bottom,#FCE887,#A56C22);
+}
+.background .design1{
+    height: 15mm;
+    width: 160mm;
+}
+.background .ganesha{
+    height: 60mm;
+    width: 60mm;
+    position: relative;
+    left: 45mm;
+    top: 10mm;
+}
+.background .title{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 10mm;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.background .headlineLine{
+    color: gold;
+    padding: 0 10mm 0 10mm;
+    text-align: center;
+    position: relative;
+    top: 13mm;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.background .hr{
+    width: 60mm;
+    border-radius: 3mm;
+    border: 0.2mm solid gold;
+    position: relative;
+    top: 25mm; 
+}
+.background .header{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 33mm;
+    font-size: 15mm;
+}
+.background .hr2{
+    width: 60mm;
+    border-radius: 3mm;
+    border: 0.2mm solid gold;
+    position: relative;
+    top: 40mm;
+}
+.background .date{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 50mm;
+}
+.background .save{
+    color: gold;
+    text-align: center;
+    position: relative;
+    top: 60mm;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.background .saveDate{
+    color: gold;
+    text-align: center;
+    position: relative;
+    top: 60mm;
+    letter-spacing: 0.5mm;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.background .location{
+    color: gold;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    top: 60mm;
+}
+.background .design2{
+    height: 15mm;
+    width: 160mm;
+    position: relative;
+    top: 83.5mm;
+}
+.golden .swastik{
+    height: 50mm;
+    width: 50mm;
+    position: relative;
+    top: 33mm;
+    right: 25mm;
+}
