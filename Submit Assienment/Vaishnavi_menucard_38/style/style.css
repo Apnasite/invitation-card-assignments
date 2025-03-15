@@ -1,0 +1,228 @@
+.invitation-wrapper{
+    position: relative;
+    height: 297mm;
+    width: 210mm;
+    overflow: hidden;
+    border: 2px solid black;
+    left: 20mm;
+}
+
+
+.top-white{
+    position: relative;
+    height: 20mm;
+    
+}
+
+
+
+.bottom-brown{
+    position: relative;
+    top: 105mm;
+    height: 205mm;
+    width: 211mm;
+    background-color:rgb(36, 13, 19);
+    /* border-radius: 20%; */
+    /* rotate: 45deg; */
+}
+
+.img1 img{
+    
+        position: absolute;
+        z-index: 9;
+        left: 399pt;
+        top: -13pt;
+        width: 45mm;
+        height: 71mm;
+        transform: rotate(670deg);
+    }
+    
+
+
+  .img2 img{
+    position: absolute;
+    z-index: 9;
+    left: 90pt;
+    top: -19pt;
+    width: 49mm;
+    height: 71mm;
+    transform: rotate(412deg);
+}
+
+
+.ring-logo img{
+    position: absolute;
+    top: 62mm;
+    height: 53mm;
+    left: 79mm;
+    width: 60mm;
+    /* background-image: linear-gradient(rgb(117, 180, 91),rgb(255, 228, 221)); */
+
+    /* color: pink; */
+    /* background-color: pink; */
+    /* background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)); */
+}
+
+
+.heading-content{
+
+    position: absolute;
+    height: 31mm;
+    width: 84mm;
+    top: 31mm;
+    left: 70mm;
+    /* background-color: pink; */
+    z-index: 10;
+}
+
+
+.div1{
+position: absolute;
+text-align: center;
+top: 8mm;
+left: 30mm;
+}
+
+.div2{
+position: absolute;
+text-align: center;
+top: 14mm;
+left: 8mm;
+    }
+    .div3{
+ position: absolute;
+ text-align: center;
+ left: 20mm;
+ top: 20mm;
+        } 
+
+
+    .jm{
+      height: 20mm;
+      width: 20mm;
+      top: -19mm;
+      left: 33mm;
+      position: absolute;
+      font-size: 43pt;
+      color:rgb(255, 228, 221);
+      background-image: linear-gradient(rgb(117, 180, 91),rgb(255, 228, 221));
+        }
+
+
+        .couple-name{
+            position: absolute;
+            height: 41mm;
+            width: 90mm;
+            top: 186mm;
+            left: 71mm;
+            font-size: 45pt;
+            color: rgb(254, 255, 255);
+            /* background-color: pink; */
+
+        }
+
+
+        .date{
+        position: absolute;
+        top: 206mm;
+        height: 20mm;
+        width: 62mm;
+        left: 85mm;
+        font-size: 20pt;
+        color: rgb(76, 46, 23);
+        /* background-color: pink; */
+        }
+
+
+        .date p{
+            height: 20mm;
+            width: 58mm;
+            font-size: 33pt;
+            /* background-color: pink; */
+            position: absolute;
+            top: 4mm;
+            color: rgb(214, 164, 95);
+            /* border-left: 2px solid white;
+            border-right: 2px solid white; */
+        }
+
+
+        .border-left{
+
+            height: 20mm;
+            width: 20mm;
+            top: 14mm;
+            left: 28mm;
+            border-left: 2px solid rgb(168, 159, 161);
+            /* background-color: pink; */
+            position: absolute;
+        }
+
+
+        .border-right{
+            height: 20mm;
+            width: 20mm;
+            top: 14mm;
+            left: 14mm;
+            border-left: 2px solid rgb(168, 159, 161);
+            /* background-color: pink; */
+            position: absolute;
+        }
+
+
+
+        .location{
+          position: absolute;
+          height: 11mm;
+          width: 79mm;
+          font-size: 18pt;
+          top: 247mm;
+          left: 74mm;
+          color: rgb(168, 159, 161);
+          border-bottom: 1px solid rgb(168, 159, 161);
+          border-top: 1px solid  rgb(168, 159, 161);
+
+          /* background-color: pink; */
+        }
+        .location p{
+            position: absolute;
+            top: -4mm;
+        }
+
+
+        .rsvp{
+            position: absolute;
+            top: 263mm;
+            height: 20mm;
+            width: 60mm;
+            left: 95mm;
+            font-size: 16pt;
+            color: rgb(168, 159, 161);
+           
+            /* background-color: pink; */
+        }
+
+
+        /* .border-left{
+
+            position: absolute;
+            border-left: 2px solid green, pink;
+            height: 4mm;
+            width: 107mm;
+            top: -85mm;
+            background-color: pink;
+        } */
+
+/* .border-right{
+        position: absolute;
+            border-left: 2px solid green, pink;
+            height: 4mm;
+            width: 107mm;
+            top: -85mm;
+            left: -85mm;
+            /* background-color: red; */
+            /* background-image: linear-gradient(pink, green, rgb(254, 255, 255));
+            border-radius: 20%;
+            rotate: 45deg; */
+
+} */
