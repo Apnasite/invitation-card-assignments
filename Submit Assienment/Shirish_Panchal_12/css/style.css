@@ -154,16 +154,7 @@
     left: 11mm;
     width: 73mm;
     border:0.2645833333mm solid navy;
-    
-} 
-.line17 {
-    position: absolute;
-    top: 144mm;
-    left: 86mm;
-    height: 18mm;
-    border:0.2645833333mm solid navy;
-    
-} 
+}
 .line18 {
     position: absolute;
     top: 144mm;
@@ -275,14 +266,13 @@
 
 }
 .date {
-    font-size: 35pt;
+    font-size: 29pt;
     color: #27115d;
     position: absolute;
-    top: 23mm;
-    left: 84mm;
+    top: 26mm;
+    left: 53mm;
     font-weight: bold;
     text-align: center;
-
 }
 .year {
     font-size: 20pt;
