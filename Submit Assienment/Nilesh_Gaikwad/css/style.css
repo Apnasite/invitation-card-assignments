@@ -103,10 +103,10 @@
     position: absolute;
     z-index: 9;
     left: -93pt;
-    top: 288pt;
-    width: 20mm;
-    height: 20mm;
-    transform: rotate(305deg);
+    top: 3pt;
+    width: 51mm;
+    height: 30mm;
+    transform: rotate(deg);
 }
 
 .invitation-header {

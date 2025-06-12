@@ -1,0 +1,99 @@
+
+/* font-face{
+
+    font-family: "Tagerine";
+    src: url("../fonts/Tagerine/Tagerine-bold.ttf")
+} */
+
+
+.body{
+
+font-family: 'Tangerine';
+}
+
+.menu-wrapper{
+    position: absolute;
+    width: 185mm;
+    height: 210mm;
+    background-color:rgb(255, 235, 210);
+}
+
+.menu-background{
+    position: absolute;
+    background-color:rgb(231, 200, 146);
+    width: 133mm;
+    top: 25mm;
+    height: 154mm;
+    left: 22mm;
+}
+
+
+/* .undefined{
+    position: absolute;
+    left: 105mm;
+    top: -16mm;
+} */
+
+
+.img2{
+    width: 90mm;
+    rotate: 279deg;
+    top: -34mm;
+    left: 75mm;
+    position: absolute;
+}
+
+.img1{
+
+    position: absolute;
+    top: 100mm;
+    rotate: 87deg;
+    left: -29mm;
+    width: 90mm;
+}
+
+.subcategory-name{
+    POSITION: absolute;
+    top: 41mm;
+    left: 72mm;
+  color: brown;
+}
+
+h1{
+    POSITION: absolute;
+    TOP: 55MM;
+    LEFT: 75MM;
+    HEIGHT: 20MM;
+    WIDTH: 20MM;
+    color: brown;
+}
+
+.restaurant-discription{
+    position: absolute;
+    top: 99mm;
+    left: 65mm;
+    font-size: 12pt;
+    width: 50mm;
+    color: brown;
+
+}
+
+    .category-name{
+    position: absolute;
+    top: 125mm;
+    left: 71mm;
+    font-size: 15pt;
+    color: brown;
+
+}
+
+.special-item-name{
+    position: absolute;
+    top: 140mm;
+    left: 51mm;
+    width: 81mm;
+}
+
+h1{
+    font-family: Brush Script MT;
+}
