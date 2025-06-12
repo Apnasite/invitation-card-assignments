@@ -1,0 +1,160 @@
+@font-face {
+    font-family: myFont1;
+    src: url(../fonts/Ananda\ Black\ Personal\ Use.ttf);
+}
+
+@font-face {
+    font-family: myFont2;
+    src: url(../fonts/Ananda\ Personal\ Use.ttf);
+}
+
+@font-face {
+    font-family: myFont3;
+    src: url(../fonts/Classyvogueregular.ttf);
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    justify-items: center;
+}
+
+.invitation-background {
+    height: 280mm;
+    width: 220mm;
+    background-color: #F2F1EF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.invitation-background .invitation-card {
+    height: 250mm;
+    width: 180mm;
+    background-image: linear-gradient(to bottom, #04274F, #060932);
+}
+
+.invitation-card .golden-container {
+    height: 250mm;
+    width: 40mm;
+    background-image: linear-gradient(to bottom, #FFF395, #A87023);
+    position: relative;
+    left: 140mm;
+}
+
+.invitation-card .border-decoration1 {
+    height: 10mm;
+    width: 140mm;
+    position: relative;
+    bottom: 245mm;
+}
+
+.golden-container .border-decoration2 {
+    height: 10mm;
+    width: 40mm;
+    position: relative;
+    top: 4.6mm;
+}
+
+.invitation-card .ganesha {
+    height: 65mm;
+    width: 65mm;
+    position: relative;
+    bottom: 247mm;
+    left: 40mm;
+}
+
+.invitation-card .om {
+    height: 45mm;
+    width: 45mm;
+    position: relative;
+    top: 20mm;
+    right: 23mm;
+    border-radius: 30mm;
+}
+
+.invitation-card .middle-content {
+    height: 140mm;
+    width: 120mm;
+    position: relative;
+    bottom: 250mm;
+    left: 10mm;
+    /* border: 1mm solid black; */
+    text-align: center;
+
+}
+
+.middle-content #mr {
+    margin: 0;
+    padding: 0;
+    font-family: myFont2;
+    color: white;
+    font-size: 10mm;
+    font-weight: lighter;
+}
+
+.middle-content #request {
+    color: #bba742;
+    margin: 0;
+    padding: 0 5mm 0 5mm;
+}
+
+.middle-content .hr {
+    width: 60mm;
+    border: 0.3mm solid #bba742;
+}
+
+.middle-content #name {
+    font-family: myFont3;
+    color: white;
+    font-size: 12mm;
+    letter-spacing: 1.5mm;
+}
+
+.middle-content #date {
+    font-size: 10mm;
+    color: white;
+}
+
+.middle-content .footer {
+    margin: 0;
+    padding: 0;
+    color: #bba742;
+}
+
+.middle-content .dateno {
+    margin: 0;
+    padding: 0;
+    color: #bba742;
+    font-size: 5.5mm;
+    position: relative;
+    bottom: 3mm;
+}
+
+.middle-content .location {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    bottom: 6mm;
+    color: #bba742;
+}
+
+.invitation-card .btm-dec {
+    height: 10mm;
+    width: 140mm;
+    position: relative;
+    top: 10mm;
+    right: 10mm;
+}
+
+.golden-container .bottom-golden-dec {
+    height: 10mm;
+    width: 40mm;
+    position: relative;
+    top: 178.8mm;
+}
+
+#and {
+    color: #bba742;
+}
