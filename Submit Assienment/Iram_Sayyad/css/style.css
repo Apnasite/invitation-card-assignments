@@ -1,0 +1,304 @@
+/* Body and background settings */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} 
+
+@font-face {
+    font-family: "organizer";
+    src: url("../font/Secania-gxLVR.ttf");
+      
+  }
+
+/* Wrapper for the invitation card */
+.invitation-wrapper {
+    position: relative;
+    width: 210mm;
+    height: 297mm;
+    background: #fff;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-image: url(../img/watermark.jfif);
+}
+
+/* Background decorations */
+
+.white-wrapper {
+    position: absolute;
+    margin: 15mm;
+    width: 180mm;
+    height: 267mm;
+    background: white;
+    overflow: hidden;
+}
+
+.golden-border {
+    position: absolute;
+    margin: 25mm;
+    width: 160mm;
+    height: 247mm;
+    background: white;
+    border: 4pt solid goldenrod;
+    overflow: hidden;
+}
+
+.horizontal-line1
+{
+    position: absolute;
+    margin-top: 110mm;
+    margin-left: 53mm;
+    width: 20mm;
+    height: 1mm;
+    background: rgb(207, 185, 130);
+}
+
+.horizontal-line2
+{
+    position: absolute;
+    margin-top: 110mm;
+    margin-left: 140mm;
+    width: 20mm;
+    height: 1mm;
+    background: rgb(207, 185, 130);
+}
+
+.vertical-line {
+    position: absolute;
+    margin-top: 184mm;
+    margin-left: 111mm;
+    width: 1mm;
+    height: 25mm;
+    background: rgb(207, 185, 130);
+}
+
+.horizontal-line3 {
+    position: absolute;
+    margin-top: 161mm;
+    margin-left: 47mm;
+    width: 42mm;
+    height: 1mm;
+    background: rgb(207, 185, 130);
+}
+
+.horizontal-line4 {
+    position: absolute;
+    margin-top: 161mm;
+    margin-left: 126mm;
+    width: 42mm;
+    height: 1mm;
+    background: rgb(207, 185, 130);
+}
+
+.horizontal-line5 {
+    position: absolute;
+    margin-top: 175mm;
+    margin-left: 47mm;
+    width: 42mm;
+    height: 1mm;
+    background: rgb(207, 185, 130);
+}
+
+.horizontal-line6 {
+    position: absolute;
+    margin-top: 175mm;
+    margin-left: 126mm;
+    width: 42mm;
+    height: 1mm;
+    background: rgb(207, 185, 130);
+}
+
+.star1 {
+    position: absolute;
+    top: 232mm;
+    left: 40mm;
+}
+
+.star2 {
+    position: absolute;
+    top: 232mm;
+    left: 160mm;
+}
+
+.heart1 {
+    position: absolute;
+    top: 248mm;
+    left: 46mm;
+}
+
+.heart2 {
+    position: absolute;
+    top: 248mm;
+    left: 160mm;
+}
+
+.heart3 {
+    position: absolute;
+    top: 242mm;
+    left: 52mm;
+}
+
+.heart4 {
+    position: absolute;
+    top: 242mm;
+    left: 154mm;
+}
+
+.circle-top-left {
+    position: absolute;
+    display: flex;
+    top: 41mm;
+    left: 60mm;
+}
+
+.circle-top-right {
+    position: absolute;
+    display: flex;
+    top: 41mm;
+    left: 135mm;
+}
+
+.circle {
+    width: 5mm;
+}
+
+.circle-bottom-left {
+    position: absolute;
+    display: flex;
+    top: 239mm;
+    left: 72mm;
+}
+
+.circle-bottom-right {
+    position: absolute;
+    display: flex;
+    top: 239mm;
+    left: 132mm;
+}
+
+/* Invitation content styling */
+.invitation-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    padding: 20px;
+    transform: translate(-50%, -50%);
+}
+
+.invitation-header {
+    position: absolute;
+    top: -89mm;
+    left: 38mm;
+    margin-bottom: 23px;
+    font-size: 2.5rem;
+    text-align: center;
+} 
+
+/* Additional content styling */
+.tagline {
+    position: absolute;
+    top: -103mm;
+    left: 60mm;
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 1mm;
+}
+
+.event-name {
+    position: absolute;
+    top: -87mm;
+    left: 50mm;
+    /* font-size: 4rem;
+    font-weight: bold; */
+}
+
+.event-subheading {
+    position: absolute;
+    top: -36mm;
+    left: 62mm;
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: 1mm;
+}
+
+.event-participant-1 {
+    position: absolute;
+    top: -24mm;
+    left: 28mm;
+}
+
+.event-participant-1 img {
+    width: 125mm;
+    height: 32mm;
+}
+
+.date {
+    position: absolute;
+    top: 23mm;
+    left: 35mm;
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: 1mm;
+}
+
+.day {
+    position: absolute;
+    font-size: 2em;
+    top: -5mm;
+    left: 55mm;
+}
+
+.time {
+    position: absolute;
+    top: 23mm;
+    left: 113mm;
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: 1mm;
+}
+
+.location {
+    position: absolute;
+    top: 45mm;
+    left: 25mm;
+    font-size: 1.3rem;
+    text-align: end;
+}
+
+.event-description { 
+    position: absolute;
+    top: 45mm;
+    left: 107mm;
+    font-size: 1.3rem;
+    text-align: start;
+} 
+
+.event-organizers-contact-number {
+    position: absolute;
+    top: 73mm;
+    left: 46mm;
+    font-size: 1.3rem;
+    letter-spacing: 1mm;
+}
+
+.event-organizer {
+    position: absolute;
+    top: 95mm;
+    left: 74mm;
+    font-size: 1.3rem;
+    letter-spacing: 1mm;
+}
+
+.event-other-organizers {
+    position: absolute;
+    top: 103mm;
+    left: 55mm;
+    font-size: 3rem;
+    font-family: organizer;
+    font-weight: bold;
+    color: #2d9ca5;
+}
